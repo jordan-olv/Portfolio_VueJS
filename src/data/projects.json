@@ -103,5 +103,22 @@
         "img": "assets/static/img/rock_paper2.png"
       }
     ]
+  },
+  {
+    "id": 5,
+    "name": "Guess the Color",
+    "subtitle": "Jeu simple",
+    "description": "Petit jeu simple ou il faut devenir la couleur indiqué par un code RGB",
+    "cover": "assets/static/img/guesscolor.png",
+    "icon": "stadia_controller",
+    "tags": [
+      "HTML / CSS",
+      "JS"
+    ],
+    "sliderImg": [
+      {
+        "img": "assets/static/img/guesscolor.png"
+      }
+    ]
   }
 ]
