@@ -31,7 +31,7 @@
     "id": 2,
     "name": "Card Battle Game",
     "subtitle": "Jeu de carte",
-    "description": "Réalisation d'un jeu de carte avec système de classe pour un exercice de formation. .",
+    "description": "Réalisation d'un jeu de carte avec système de classe pour un exercice de formation.",
     "cover": "assets/static/img/cardbattlebg.png",
     "icon": "stadia_controller",
     "link": "https://project.jordanolivier.dev/Card_Battle_Game/",
@@ -108,8 +108,9 @@
     "id": 5,
     "name": "Guess the Color",
     "subtitle": "Jeu simple",
-    "description": "Petit jeu simple ou il faut devenir la couleur indiqué par un code RGB",
+    "description": "Petit jeu simple ou il faut devenir la couleur indiqué par un code RGB, avec un système de score et de vies.",
     "cover": "assets/static/img/guesscolor.png",
+    "link": "https://project.jordanolivier.dev/Guess_Color/",
     "icon": "stadia_controller",
     "tags": [
       "HTML / CSS",
@@ -118,6 +119,30 @@
     "sliderImg": [
       {
         "img": "assets/static/img/guesscolor.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Quiz",
+    "subtitle": "Quiz à thème",
+    "description": "Réalisation d'un quiz avec choix du thème et un système de score, tous les thèmes sont récupérés via des JSON",
+    "cover": "assets/static/img/quizbg.jpg",
+    "link": "https://project.jordanolivier.dev/QuizIFPA/",
+    "icon": "stadia_controller",
+    "tags": [
+      "HTML / SCSS",
+      "JS"
+    ],
+    "sliderImg": [
+      {
+        "img": "assets/static/img/quizbg.jpg"
+      },
+      {
+        "img": "assets/static/img/quizbg2.jpg"
+      },
+      {
+        "img": "assets/static/img/quizbg3.jpg"
       }
     ]
   }

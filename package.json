@@ -10,6 +10,7 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "flowbite": "^1.6.4",
     "flowbite-vue": "^0.0.10",
     "primeicons": "^6.0.1",

@@ -51,7 +51,7 @@
         <p :class="[{ hidden: tabSelected != 'one' }, 'tabcontent', 'fadeIn']">
           J'ai commencé mon apprentissage sur Le
           <span>siteduzero</span> devenue openclassroom, Par la suite j'ai
-          principalement appris sur le terrain en réalisant des projets fictif.
+          principalement appris sur le terrain en réalisant des projets fictifs.
         </p>
         <p :class="[{ hidden: tabSelected != 'two' }, 'tabcontent', 'fadeIn']">
           J'ai effectué une formation
