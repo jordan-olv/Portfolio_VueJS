@@ -30,8 +30,8 @@
   {
     "id": 2,
     "name": "Card Battle Game",
-    "subtitle": "Jeu de carte",
-    "description": "Réalisation d'un jeu de carte avec système de classe pour un exercice de formation. .",
+    "subtitle": "Jeu de cartes",
+    "description": "Réalisation d'un jeu de cartes avec système de classe pour un exercice de formation.",
     "cover": "assets/static/img/cardbattlebg.png",
     "icon": "stadia_controller",
     "link": "https://project.jordanolivier.dev/Card_Battle_Game/",

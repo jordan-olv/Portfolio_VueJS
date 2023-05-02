@@ -15,7 +15,7 @@
               />
               Autodidacte
             </h3>
-            <p>2020 - Present</p>
+            <p>2020 - Présent</p>
           </article>
           <article :class="{ active: tabSelected == 'two' }">
             <input type="radio" value="two" v-model="tabSelected" />
@@ -51,7 +51,7 @@
         <p :class="[{ hidden: tabSelected != 'one' }, 'tabcontent', 'fadeIn']">
           J'ai commencé mon apprentissage sur Le
           <span>siteduzero</span> devenue openclassroom, Par la suite j'ai
-          principalement appris sur le terrain en réalisant des projets fictif.
+          principalement appris sur le terrain en réalisant des projets fictifs.
         </p>
         <p :class="[{ hidden: tabSelected != 'two' }, 'tabcontent', 'fadeIn']">
           J'ai effectué une formation
