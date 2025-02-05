@@ -4,7 +4,6 @@ import RightBarCopyright from "../components/RightBarCopyright.vue";
 import Hero from "../components/sections/Hero.vue";
 import Experience from "../components/sections/Experience.vue";
 import Work from "../components/sections/Work.vue";
-import Contact from "../components/sections/Contact.vue";
 import TheHeader from "../components/TheHeader.vue";
 </script>
 
@@ -16,7 +15,6 @@ import TheHeader from "../components/TheHeader.vue";
     <Hero />
     <Experience />
     <Work />
-    <Contact />
   </main>
 </template>
 

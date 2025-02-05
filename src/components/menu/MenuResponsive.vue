@@ -30,13 +30,13 @@
               </span></a
             >
           </li>
-          <li class="menu-nav-item">
+          <!-- <li class="menu-nav-item">
             <a class="menu-nav-link" href="#contact"
               ><span>
                 <div>Contact</div>
               </span></a
             >
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
