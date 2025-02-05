@@ -1,0 +1,35 @@
+name: Deploy Vue.js App to Hostinger
+
+on:
+  push:
+    branches:
+      - main  # Remplace 'main' par la branche que tu utilises pour le déploiement
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' 
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build the App
+        run: npm run build
+
+      - name: Deploy to Hostinger via SSH
+        uses: appleboy/scp-action@v0.1.2
+        with:
+          host: ${{ secrets.HOSTINGER_HOST }}
+          username: ${{ secrets.HOSTINGER_USERNAME }}
+          key: ${{ secrets.HOSTINGER_SSH_KEY }}
+          port: 22
+          source: "dist/*"
+          target: "public_html"
